@@ -1,4 +1,4 @@
 # Web Development 
-Source code of learn fullstack web development
+Source code of learn fullstack web development on Github
 <br>
-Author-Nihal Saini
+Author- Nihal Saini
