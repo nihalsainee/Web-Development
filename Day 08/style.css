@@ -2,14 +2,14 @@ p{
     background-color: red;
 }
 a{
-    background-color: yellow;
+    background-color: rgb(255, 228, 26);
 }
 div{
-    background-color: rgb(133, 133, 133);
+    background-color: rgb(255, 255, 255);
 }
 span{
     background-color: lightblue;
 }
 nav{
-    background-color: rgb(170, 170, 170);
+    background-color: rgb(255, 255, 255);
 }
