@@ -11,4 +11,9 @@ Day 08 (Web Development) with backlogs!
 Sorry for the late uploads! I recently learned how to use GitHub and have now added all my previous source code. Regular updates will continue from here.
 <br>
 <br>
+23 Oct 2025
+<br>
+10 Lectures are completed successfully! at Day 12 with have 2 Days of backlogs.
+<br>
+<br>
 
