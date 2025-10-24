@@ -16,4 +16,9 @@ Sorry for the late uploads! I recently learned how to use GitHub and have now ad
 10 Lectures are completed successfully! at Day 12 with have 2 Days of backlogs.
 <br>
 <br>
+24 Oct 2025 
+<br>
+Clear all backlogs and run with SWD right now 
+<br>
+<br>
 
