@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise</title>
+</head>
+
+<body style="background-color: rgb(255, 217, 0);">
+    <!--Quiz. You are given 12 files; 6 audio and 6 video.
+    Design a website using HTML only which shows these 12 files.
+    1.mp3, 2.mp3 .... 6.mp3
+    1.mp4, 2.mp4 .... 6.mp4 -->
+    <header
+        style="text-align: center; background-color: black; color: white; padding: 10px; margin-bottom: 20px; border-radius: 10px;">
+        <h1>Audio and Video</h1>
+    </header>
+    <main>
+        <div style="margin-bottom: 20px; border-radius: 10px; background-color: rgb(0, 0, 0);">
+            <h2 style="color: white; text-align: center; font-size: 24px; padding-top: 10px;">Audio</h2>
+            <nav style="padding-bottom: 30px;">
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a1.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a2.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a3.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a4.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a5.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+                <audio controls alt="Audio Player"
+                    style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;">
+                    <source src="a6.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
+            </nav> 
+        </div>
+        <div style="margin-bottom: 20px; border-radius: 10px; background-color: rgb(0, 0, 0);">
+            <h2>Video</h2>
+            <nav>
+                <video poster="p01.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video poster="p02.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video poster="p03.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v3.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video poster="p04.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v4.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video poster="p05.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v5.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video poster="p06.avif" style="padding-top: 10px; display: block; margin: 0 auto; width: 80%;" width="320" height="240" controls>
+                    <source src="v6.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </nav>
+    </main>
+    <footer>
+        <p style="text-align: center;">
+            &copy; Exercise Completed Web Development 2025!
+        </p>
+    </footer>
+</body>
+
+</html>
