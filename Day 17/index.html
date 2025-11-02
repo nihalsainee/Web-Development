@@ -1,0 +1,102 @@
+<!-- CSS Selectors Master Class | Sigma Web Development Lecture 17 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div {
+            background-color: yellow;
+        }
+
+        /* Class Selector */
+        .red {
+            background-color: red;
+        }
+
+        /* Id Selector */
+        #green {
+            background-color: green;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Descendant Selector */
+        div span {
+            color: silver;
+        }
+
+        /* Universal Selector */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: rgb(112, 0, 177);
+        }
+
+        a:link {
+            color: rgb(23, 77, 255);
+        }
+
+        a:active {
+            color: rgb(51, 255, 0);
+        }
+        a:hover{
+            background-color: rgb(238, 255, 0);
+        }
+        p:first-child{
+            color: rgb(47, 255, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <p>First Child Para</p>
+        <p>Second Child Para</p>
+    </main>
+    <div class="red">
+        Hey I am div
+        <p>
+            Hey this is para here...
+            <span>Hey this is span Element</span>
+        </p>
+    </div>
+    <div>
+        Hey I am another div!
+        <p>
+            Hey this is para here...<span>Hey this is span Element</span>
+        </p>
+    </div>
+    <div id="green">
+        Hey I am yet another div!
+        <p>
+            Hey this is para here...<span>Hey this is span Element</span>
+        </p>
+    </div>
+    <div>
+        Hey I am last one div!
+        <p>
+            Hey this is para here...<span>Hey this is span Element</span>
+        </p>
+    </div>
+    <ol>
+        <li><a href="https://www.google.com">Go to Google</a></li>
+        <li><a href="https://www.facebook.com">Go to Facebook</a></li>
+        <li><a href="https://www.youtube.com">Go to YouTube</a></li>
+        <li><a href="https://www.twitter.com">Go to twitter</a></li>
+        <li><a href="https://www.instagram.com">Go to Instagram</a></li>
+    </ol>
+</body>
+
+</html>
