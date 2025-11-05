@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <style>
+        /* Specificity of Universal Selector is 0 */
+        *{
+            color: brown
+        }
+        /* Specificity of Elements Selector & Pseudo elements is 1 */
+        h1 {
+            background-color: rgb(94, 94, 94);
+            color: rgb(0, 170, 255);
+        }
+        
+        /* Specificity of Class Selectors, Attribute Selector & Pseudo Classes is 10 */
+        .yellow {
+            color: yellow;
+        }
+
+        .red {
+            color: red;
+        }
+
+        .purple {
+            color: purple;
+        }
+        
+        /* The specificity of these selector is 1 + 10 = 11 */
+        h1.yellow{
+            color: yellow;
+        }
+
+        /* This is a example of attribute selector */
+        [sel-nav=x]{
+            color: aqua;
+        }   
+
+        /* Specificity of ID Selector is 100 */
+        #idselector{
+            color: rgb(0, 213, 255);
+        }
+
+        strong {
+            color: rgb(72, 0, 255)
+        }
+
+        p {
+            background-color: rgb(94, 94, 94);
+            color: rgb(255, 213, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Specificity of Inline Style is 1000 -->
+    <h1 style="color: orange;" id="idselector" class="yellow red purple">CSS Specificity</h1>
+    <div>
+        <p>Inline Style <strong style="color: black;">></strong> ID Selector <strong style="color: black;">></strong> Class/Attribute/Pseudo-class <strong style="color: black;">></strong> Element Selector <strong style="color: black;">></strong> Universal Selector</p>
+        <h2 sel-nav="x">Attribute Selectors: <strong>[type="text"]</strong></h2>
+        <li>Inline Styles: <strong>style="color: orange;"</strong>
+        </li>
+        <li>ID Selectors: <strong>#idselector</strong></li>
+        <li>Class Selectors: <strong>.yellow, .red, .purple</strong></li>
+        <li>Element Selectors: <strong>'h1', 'p', 'div'</strong></li>
+        <li>Universal Selector: <strong>'*'</strong></li>
+        </ol>
+    </div>
+</body>
+
+</html>
