@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizing in CSS</title>
+    <style>
+        html {
+            background-color: rgb(0, 191, 255);
+            font-size: 18px;
+        }
+
+        .box {
+            border: 2px solid black;
+            width: 80vw;
+            /* "vw" for using auto view port width in any type of devices! */
+            margin: auto;
+            background-color: aquamarine;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 2px solid black;
+            width: 80vw;
+            /* height: 80vh; */
+            min-height: 80vh;
+            margin: 10px auto;
+            box-sizing: border-box;
+            background-color: aquamarine;
+            font-size: 1em;
+        }
+
+        .container p {
+            font-size: 1rem;
+            border: 1px solid red;
+        }
+
+        .mycont {
+            border: 2px solid black;
+            box-sizing: border-box;
+            margin: 23px auto;
+            color: rgb(249, 0, 0);
+            background-color: aquamarine;
+            font-size: 22px;
+            /* width: 100vmin; */
+            width: 80vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">This is a box.</div>
+    <div class="container">Lorem ipsum dolor sit amet, consectetur
+        repellat, nihil magni cum ullam placeat voluptatibus, reprehenderit ut odit inventore doloribus, consequuntur animi
+        ratione rerum tempora accusantium voluptas eaque illum non voluptatum quibusdam, deleniti, ducimus iure hic
+        iusto blanditiis quidem consectetur. Nobis, cum. Amet exercitationem quod at. Iusto, ab quod? Odio velit
+        aspernatur illum consectetur sint officiis est dolorum. Expedita reiciendis officiis aspernatur, perferendis
+        illum natus magni inventore ut maiores itaque autem laborum voluptatum tenetur libero alias facere sunt ducimus!
+        Velit, laborum dignissimos sit eveniet suscipit consequuntur quos amet ducimus molestias dolorem incidunt fuga
+        vel eaque numquam veritatis, harum voluptas nulla a? Corporis cumque expedita suscipit corrupti modi molestiae
+        aperiam placeat eveniet harum natus nam ipsa sint et voluptates rerum minus in sunt a rem perferendis vero,
+        laborum id reiciendis? Vel nulla et quidem ex doloremque ipsam corporis omnis cum dolore, doloribus distinctio,
+        laborum quasi dolorum possimus hic! Eum in magnam commodi vel impedit deleniti provident excepturi quaerat, ut,
+        id, minima quam! Ullam, optio incidunt odit facere modi nostrum in harum cum delectus laboriosam assumenda amet
+        omnis voluptatem ipsam voluptas sit eligendi? Non repellat ipsam repellendus molestiae quae reiciendis quod quos
+        cupiditate iure expedita quasi incidunt, a omnis vel dolorem. Optio eaque dignissimos nulla mollitia, autem
+        provident quos quia dolores numquam minus architecto ea accusamus voluptatem tempora tenetur distinctio saepe
+        consectetur. Fugit doloribus iusto voluptate similique praesentium numquam animi nulla voluptates nisi, quo ut
+        repellat iure blanditiis provident optio expedita possimus qui, saepe corrupti minus enim. Incidunt inventore,
+        totam ut eius ullam voluptas dolore cumque rem quis commodi, nobis distinctio repellat et laboriosam id ipsum
+        similique qui iure enim corrupti, saepe cupiditate ad temporibus veritatis. Cupiditate vel illum itaque. Hic
+        cupiditate eius rerum consequuntur voluptatibus, voluptatem suscipit magni beatae veniam expedita quas assumenda
+        enim quia esse iure ipsa corrupti ipsam atque officiis quam? Dolorum reiciendis quod odit nam consequuntur,
+        quidem repudiandae ipsa vero nemo veritatis quo facilis laborum ex mollitia iusto? Facere fuga at soluta optio
+        expedita quae libero sapiente magni illum vero repellat corporis deserunt modi autem fugiat, exercitationem nisi
+        vel ipsa fugit molestias obcaecati, sed quos officiis! Molestias. Lorem ipsum, dolor sit amet consectetur
+        adipisicing elit. Doloremque corrupti exercitationem
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sunt magni nesciunt dolor ex facere
+            consequuntur, illum quos, aut error est itaque autem illo, architecto repudiandae dolore. Inventore,
+            nesciunt veniam.
+        </p>
+        <!-- Expand to see that this container will adjust height  -->
+    </div>
+    <div class="mycont">Hey, I'm another container</div>
+    <footer>
+        <div style="background-color: yellow; text-align: center;" class="ref">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Values_and_Units">References</a>
+        </div>
+        <p style="text-align: center;">© 2025 Sizing in CSS | Created by Your Name</p>
+    </footer>
+</body>
+
+</html>
